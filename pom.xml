@@ -14,31 +14,25 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>akshitone.springtutorial</groupId>
-    <artifactId>petclinic</artifactId>
+    <artifactId>akshitone.springtutorial.petclinic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>petclinic</name>
+    <name>akshitone.springtutorial.petclinic</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
     </properties>
-    <dependencies>
-    </dependencies>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com/akshitone/spring-tutorial-pet-clinic.git</developerConnection>
+    </scm>
 
 </project>
