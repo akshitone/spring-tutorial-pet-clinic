@@ -2,9 +2,11 @@ package akshitone.springtutorial.petclinic.services.map;
 
 import akshitone.springtutorial.petclinic.model.Vet;
 import akshitone.springtutorial.petclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
